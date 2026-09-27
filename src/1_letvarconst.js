@@ -37,8 +37,8 @@ total = 1000;
 console.log(total);
 
 //3. Hoisting is allowed but with error at RT
-// console.log(h);//Cannot access 'h' before initialization
-// let h = 25;
+console.log(h);//Cannot access 'h' before initialization
+let h = 25;
 
 
 //3. const:
