@@ -44,7 +44,7 @@ let initDriver = function (browserName) {
     }
 };
 
-let isInit = initDriver('ie');
+let isInit = initDriver('chrome');
 if (isInit) {
     console.log('enter the url: google.com');
 }

@@ -55,7 +55,7 @@ let c12 = new Promise((resolve, reject) => {
 
 let c13 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        reject('load footer of the page');
+        resolve('load footer of the page');
     }, 3000);
 });
 
