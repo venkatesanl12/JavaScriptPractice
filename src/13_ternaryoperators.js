@@ -1,6 +1,6 @@
 // ? :
 
-let num = 20;
+let num = 16;
 
 let bill = num >= 15 ? 100 : 200;
 console.log(bill);
