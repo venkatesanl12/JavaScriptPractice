@@ -46,7 +46,7 @@ for (let i = 0; i < marks.length; i++){
     }
     console.log();
 }
-
+ console.log(marks.length);
 //[tom, automation, 999999, test@gmail.com, test@123],
 //[naveen, testing]
 //[ravi, testing, 898989]
