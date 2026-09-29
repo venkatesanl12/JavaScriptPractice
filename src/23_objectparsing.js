@@ -19,6 +19,10 @@ let userJson = JSON.stringify(user, null, 1);
 console.log(userJson);
 console.log(typeof userJson);//string
 
+let u1 = JSON.stringify(user);
+console.log(u1);
+console.log(typeof u1);//string
+
 console.log('---------');
 
 //JSON string to JS Object: de-serialization

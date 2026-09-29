@@ -17,9 +17,9 @@ let u3 = {
 };
 
 
-console.log(u1);
-console.log(u2);
-console.log(u3);
+console.log("USER#1::" + JSON.stringify(u1));
+console.log("USER#2:" + JSON.stringify(u2));
+console.log("USER#3" + JSON.stringify(u3));
 
 console.log('=======');
 u1 = u2;

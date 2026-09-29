@@ -5,9 +5,9 @@ let user = {
     isActive: true
 };
 
-// console.log(user.name);
-// user = null;
-// console.log(user.name);//null.name: type error
+console.log(user.name);
+user = null;
+console.log(user.name);//null.name: type error
 
 
 let u1 = {
