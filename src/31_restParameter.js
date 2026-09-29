@@ -9,6 +9,12 @@ function selectCountryFromDropDown(...countryName) {
     }
 };
 
+selectCountryFromDropDown('India', 'UK', 'UAE', 'USA', 'Russia');
+console.log('-------------------');
+selectCountryFromDropDown('India');
+console.log('-------------------');
+selectCountryFromDropDown('India', 'USA');
+console.log('-------------------');
 /**
  * 
  * @param {string} name 
@@ -22,11 +28,6 @@ function fillValues(name, ...details) {
         console.log(e);
     }
 };
-
-
-//selectCountryFromDropDown('India', 'UK', 'UAE', 'USA', 'Russia');
-selectCountryFromDropDown('India');
-selectCountryFromDropDown('India', 'USA');
 
 
 fillValues('pawan', 101, 'new colony', 'sector 7', 'bangalore', '65444', 'India');

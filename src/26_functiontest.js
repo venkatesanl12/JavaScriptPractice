@@ -15,4 +15,5 @@ function search(productname, price) { //2 param
 
 
 
-search('imac', 1000, 300);
+//search('imac', 1000); //hello search2 imac 1000
+search('APPLE'); //hello search2 APPLE
