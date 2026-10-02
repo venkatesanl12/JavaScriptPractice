@@ -64,7 +64,8 @@ Promise.all([c11, c12, c13])
     .catch((error) => console.log(error));
 
 
-//2. race(): retunrs the first promise that finishes
+//2. race(): retunrs the first promise that finishes in  Resolved oe Rejected state
+
 
 let t11 = new Promise((resolve, reject) => {
     setTimeout(() => {

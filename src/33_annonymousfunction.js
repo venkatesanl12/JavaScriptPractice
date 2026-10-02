@@ -14,7 +14,7 @@ console.log(t1);
 console.log('------------');
 
 
-//initDriver('ie');
+
 
 
 /**
@@ -43,6 +43,8 @@ let initDriver = function (browserName) {
             return false;
     }
 };
+
+//initDriver('ie');
 
 let isInit = initDriver('chrome');
 if (isInit) {

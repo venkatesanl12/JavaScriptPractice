@@ -5,7 +5,7 @@
 //call by function : callback
 
 function sayHi() {
-    console.log('hiii');
+    console.log('HAI');
 };
 
 let sayHello = function (callback) {
@@ -13,7 +13,9 @@ let sayHello = function (callback) {
 };
 
 sayHello(function sayHi() {
-    console.log('hiii');
+    console.log('hi');
+    
+  
 });
 //calling a function by passing a function name
 
@@ -172,8 +174,8 @@ function calculator(mycallback, ...x){
 };
 
 let addition = (...a) => {
-    sum = 0;
-    for (i = 0; i < a.length; i++) {
+    let sum = 0; 
+    for (let i = 0; i < a.length; i++) {
         sum = sum + a[i];
     };
     return sum;

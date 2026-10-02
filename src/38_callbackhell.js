@@ -62,11 +62,6 @@ function pourCoffee(callback) {
 // }
 
 
-startMachine(() => {
-    console.log('hello');
-})
-
-
 //calling the functions: 
 startMachine(() => {
     grindBeans(() => {
@@ -89,6 +84,13 @@ startMachine(() => {
     })
 });
 
+// startMachine(
+//     () => 
+//     {
+//     console.log('hello');
+
+//  }
+// )
 
 
 // async function makeCoffee() {

@@ -39,6 +39,7 @@ console.log('----------');
 
 let pro = (a) => a + 4;
 
+
 let r1 = pro(100);
 console.log(r1);
 
