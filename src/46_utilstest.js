@@ -17,7 +17,6 @@ printInfo();
 
 console.log(getRandomNumber());
 
-
 console.log(user.name);
 
 console.log(addTwoNum(100, 200));

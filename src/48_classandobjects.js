@@ -33,6 +33,7 @@ e1.study();
 e1.getInfo();
 
 let e2 = new Employee('peter', 35, 13.33, false);
+console.log(e2);
 
 
 
